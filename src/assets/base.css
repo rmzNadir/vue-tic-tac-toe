@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-neutral-900 text-white;
+    @apply text-white;
+  }
+
+  html,
+  body,
+  div#app {
+    @apply min-h-full h-full;
+  }
+}
